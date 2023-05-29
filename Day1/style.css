@@ -25,3 +25,8 @@ h1{
 background-color: rgba(255, 255, 255, 0.404);
 border-radius: 10px;
 }
+.playing{
+    transform: scale(1.1);
+    border-color: green;
+    box-shadow: 5px 5px 10px green;
+}
