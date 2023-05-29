@@ -9,4 +9,12 @@ function playing(e){
     sound.play();
     key.classList.add("playing");
 }
+function remove_effects(e) {
+    if(e.propertyName !== "transform" ){
+        return;
+    }
+    this.classList.remove("playing");
+}
+let keys=document.querySelectorAll(".sound_item");
+keys.forEach(key => key.addEventListener("transitionend",remove_effects));
 window.addEventListener('keydown', playing);
