@@ -1,5 +1,27 @@
 body{
     height: screen;
     width: screen;
-    background: url("/Day1/imgs/bg.jpg");
+    background-image: url("/Day1/imgs/bg.jpg");
+}
+h1{
+    color:green;
+    text-align: center;
+    font-size: 50px;
+}
+.sound_group{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    grid-row-gap: 30px;
+}
+.sound_item{
+    font-size: 20px;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    transition: all 1s;
+    border: 5px solid black;
+background-color: rgba(255, 255, 255, 0.404);
+border-radius: 10px;
 }
