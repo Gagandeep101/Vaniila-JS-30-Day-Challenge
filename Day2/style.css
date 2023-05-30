@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
