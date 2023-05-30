@@ -28,4 +28,7 @@ function setdate() {
     else{
         sechand.classList.remove("no-transition");
     }
+    hourhand.style.transform=`rotate(${hourhandrotate}deg)`;
+    minhand.style.transform=`rotate(${minhandrotate}deg)`;
+    sechand.style.transform=`rotate(${sechandrotate}deg)`;
 }
