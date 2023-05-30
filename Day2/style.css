@@ -56,6 +56,16 @@ body {
   position: absolute;
   transform: rotate(calc(-30deg * var(--i)));
 }
+.point {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 245px;
+  top: 245px;
+  z-index: 2;
+}
 @-webkit-keyframes rainbow {
   0% {
       background-position: 0% 82%;
