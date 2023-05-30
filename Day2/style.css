@@ -99,6 +99,9 @@ body {
   background-color: white;
   transform-origin: 100% 100%;
 }
+.no-transition {
+  transition: none;
+}
 @-webkit-keyframes rainbow {
   0% {
       background-position: 0% 82%;
