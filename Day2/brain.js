@@ -7,4 +7,7 @@ function setdate() {
     const hourhandtime=date.getHours();
     const minhandtime=date.getMinutes();
     const sechandtime=date.getSeconds();
+    const hourhandrotate = ((hourhandtime / 12) * 360)+ (minhandtime/2);
+    const minhandrotate = ((minhandtime / 60) * 360) +(sechandtime / 6); ;
+    const sechandrotate=((sechandtime / 60) * 360);
 }
