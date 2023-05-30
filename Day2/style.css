@@ -66,6 +66,39 @@ body {
   top: 245px;
   z-index: 2;
 }
+.hourhand {
+  position: absolute;
+  left: 253px;
+  top: 124px;
+  height: 130px;
+  width: 5px;
+  transition: all 0.05s;
+  border-radius: 10px;
+  background-color: white;
+  transform-origin: 100% 100%;
+}
+.minhand {
+  position: absolute;
+  left: 253px;
+  top: 100px;
+  height: 150px;
+  width: 5px;
+  transition: all 0.05s;
+  border-radius: 10px;
+  background-color: white;
+  transform-origin: 100% 100%;
+}
+.sechand {
+  position: absolute;
+  left: 253px;
+  top: 73px;
+  height: 180px;
+  width: 5px;
+  transition: all 0.05s;
+  border-radius: 10px;
+  background-color: white;
+  transform-origin: 100% 100%;
+}
 @-webkit-keyframes rainbow {
   0% {
       background-position: 0% 82%;
