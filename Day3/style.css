@@ -1,0 +1,30 @@
+:root{
+    --base-color: #ffc600;
+    --base-blur: 0px;
+    --base-spacing: 0px;
+}
+body{
+    background: #000;
+    color: white;
+}
+label{
+    font-size: 30px;
+}
+.container{
+    padding: var(--base-spacing);
+    background-color: var(--base-color);
+    height: 510px;
+    width: 710px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.js{
+    color: var(--base-color);
+}
+.bg_img{
+    filter: blur(var(--base-blur));
+    height: 500px;
+    width: 700px;
+}
