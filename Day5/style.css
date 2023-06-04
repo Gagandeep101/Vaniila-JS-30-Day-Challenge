@@ -1,0 +1,81 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+.panels {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.panel {
+
+  transition:
+  font-size 1s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+  flex 1s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+  background 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.panel1 {
+  background: url(/Day5/imgs/panel1.jpeg);
+  background-size: cover;
+  flex: 1;
+}
+.panel2 {
+  background: url(/Day5/imgs/Panel2.jpeg);
+  background-size: cover;
+  flex: 1;
+}
+.panel3 {
+  background: url(/Day5/imgs/panel3.jpeg);
+  background-size: cover;
+  flex: 1;
+}
+.panel4 {
+  background: url(/Day5/imgs/panel4.jpeg);
+  background-size: cover;
+  flex: 1;
+}
+.panel5 {
+  background: url(/Day5/imgs/panel5.jpeg);
+  background-size: cover;
+  flex: 1;
+}
+.panel_transition {
+  flex:2.5;
+}
+.panel_transition p:nth-child(2) {
+  font-size: 80px;
+}
+p{
+  transition: transform 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel.open_active p:first-child{
+  transform: translateY(-30%);
+}
+.panel.open_active p:last-child{
+  transform: translateY(30%);
+}
+p:first-child {
+  transform: translateY(-100%);
+  flex: 1;
+  font-size: 40px;
+}
+p:nth-child(2) {
+  flex: 1;
+  font-size: 60px;
+}
+p:last-child {
+  transform: translateY(100%);
+  flex: 1;
+  font-size: 40px;
+}
