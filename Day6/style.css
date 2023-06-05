@@ -1,0 +1,73 @@
+* {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 30px;
+}
+form {
+  padding: 30px;
+  width: fit-content;
+  background: rgba(245, 245, 245, 0.378);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg {
+  border-radius: 10px;
+  padding: 3px;
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.search {
+  padding: 3px;
+  border-radius: 8px;
+  border: none;
+  width: 500px;
+  background-color: rgb(251, 251, 251);
+}
+.search:focus {
+  outline: none;
+}
+.suggestions {
+  overflow-y: scroll;
+  height: 70vh;
+  padding-top: 20px;
+  width: 500px;
+}
+.suggestions li {
+    padding: 6px;
+  list-style: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  border-radius: 10px;
+  height: 20px;
+}
+.name{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.population{
+    font-weight:800;
+    padding-top: 8px;
+    float: right;
+    font-size: 15px;
+}
+.highlight{
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.477);
+    color: white;
+}
