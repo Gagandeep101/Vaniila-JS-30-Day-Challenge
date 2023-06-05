@@ -3,3 +3,9 @@ const cities = [];
 fetch(endpoint)
     .then(response => response.json())
     .then(data => cities.push(...data));
+function findMatches(wordtomatch, cities) {
+    return cities.filter(places => {
+        const regex = new RegExp(wordtomatch, 'gi');
+        return places.city.match(regex) || places.state.match(regex);
+    });
+}
