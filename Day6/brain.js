@@ -23,3 +23,7 @@ function displayMatches() {
     `}).join(" ");
     suggestionbox.innerHTML=list_html;
 }
+const searchbox = document.querySelector('.search');
+const suggestionbox = document.querySelector('.suggestions');
+searchbox.addEventListener("change", displayMatches);
+searchbox.addEventListener("keyup", displayMatches);
