@@ -23,6 +23,12 @@ function populateList(plates = [], platesList) {
     `;
   }).join('');
 }
+function toggleDone(e) {
+  if (!e.target.matches('input')) return;
+  const id = e.target.dataset.index;
+  items[id].done = !items[id].done;
+  
+}
 
 addItems.addEventListener('submit', addItem);
 itemsList.addEventListener('click', toggleDone);
