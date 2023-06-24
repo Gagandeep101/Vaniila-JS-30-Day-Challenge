@@ -11,6 +11,8 @@ function highlightlink() {
         top:linkCoord.top+window.scrollY,
         left:linkCoord.left+window.scrollX
     }
-    console.log(coord);
+    highlighted.style.height=`${coord.height}px`;
+    highlighted.style.width=`${coord.width}px`;
+    highlighted.style.transform=`translate(${coord.left}px,${coord.top}px)`;
 }
 trigger.forEach(a => a.addEventListener('mouseenter',highlightlink));
