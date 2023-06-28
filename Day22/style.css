@@ -86,3 +86,16 @@ html {
     transition: all 0.2s;
     text-transform: uppercase;
   }
+
+  .fix_nav nav{
+    position: fixed;
+    box-shadow: 5px 5px 5px rgba(0);
+  }
+  .fix_nav li.logo{
+    max-width: 200px;
+  }
+
+  .fix_nav .site-wrap{
+    transform: scale(1);
+  }
+
