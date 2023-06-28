@@ -30,3 +30,15 @@ function toogle(startover = true) {
         speechSynthesis.speak(msg);
     }
 }
+
+// change the properties of speechsynthesis speak and stop using button name and its value
+function setOptions() {
+    msg[this.name] = this.value;
+    toogle();
+}
+
+options.forEach(option => option.addEventListener('change', setOptions));
+speakButton.addEventListener('click', toogle);
+stopButton.addEventListener('click', () => toogle(false));
+
+
