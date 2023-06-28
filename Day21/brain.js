@@ -8,4 +8,9 @@ const stopButton = document.querySelector('#stop');
 // set message SpeechSynthesisUtterance text propety with textarea text 
 msg.text = document.querySelector('[name="text"]').value;
 
-console.log(msg);
+function populateVoice() {
+    voices = this.getVoices();
+    console.log(voices);
+}
+
+speechSynthesis.addEventListener('voiceschanged', populateVoice);
