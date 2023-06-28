@@ -11,6 +11,7 @@ msg.text = document.querySelector('[name="text"]').value;
 function populateVoice() {
     voices = this.getVoices();
     voicesDropdown.innerHTML = voices.map(voice => `<option value="${voice.name}">${voice.name} ${voice.lang}</option>`);
+    toogle();
 }
 speechSynthesis.addEventListener('voiceschanged', populateVoice);
 
@@ -18,6 +19,14 @@ speechSynthesis.addEventListener('voiceschanged', populateVoice);
 //Change the voice of speech when the user selects from the dropdown menu 
 function setVoice() {
     msg.voice = voices.find(voice => voice.name === this.value);
+    toogle();
 }
 voicesDropdown.addEventListener('change', setVoice);
 
+// using this function the voice will speech again the text according to selected voice from the dropdown menu
+function toogle(startover = true) {
+    speechSynthesis.cancel();
+    if (startover) {
+        speechSynthesis.speak(msg);
+    }
+}
