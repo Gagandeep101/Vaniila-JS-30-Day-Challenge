@@ -12,5 +12,12 @@ function populateVoice() {
     voices = this.getVoices();
     voicesDropdown.innerHTML = voices.map(voice => `<option value="${voice.name}">${voice.name} ${voice.lang}</option>`);
 }
-
 speechSynthesis.addEventListener('voiceschanged', populateVoice);
+
+
+//Change the voice of speech when the user selects from the dropdown menu 
+function setVoice() {
+    msg.voice = voices.find(voice => voice.name === this.value);
+}
+voicesDropdown.addEventListener('change', setVoice);
+
