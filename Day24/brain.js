@@ -14,6 +14,22 @@ function handleenter() {
         }
     }, 150);
     background.classList.add('open');
+    const dropdown = this.querySelector('.dropdown');
+    // dropdown position w.r.t to body 
+    const dropdowncoord = dropdown.getBoundingClientRect();
+    
+    // navbar position w.r.t to body 
+    const navcoord = nav.getBoundingClientRect();
+    const coord = {
+        height: dropdowncoord.height,
+        width: dropdowncoord.width,
+        top: dropdowncoord.top - navcoord.top,
+        left: dropdowncoord.left - navcoord.left
+    }
+    background.style.setProperty('width', `${coord.width}px`);
+    background.style.setProperty('height', `${coord.height}px`);
+    background.style.setProperty('right', `${coord.right}px`);
+    background.style.setProperty('transform', `translate(${coord.left}px , ${coord.top}px)`);
 }
 function handleleave() {
     // remove the the added classes parents and background
