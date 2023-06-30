@@ -13,7 +13,7 @@ function handleenter() {
             this.classList.add('trigger-enter-active')
         }
     }, 150);
-
+    background.classList.add('open');
 }
 function handleleave() {
     // remove the the added classes parents and background
