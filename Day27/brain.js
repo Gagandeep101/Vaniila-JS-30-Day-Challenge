@@ -7,6 +7,7 @@ const button = document.querySelectorAll('[data-time]');
 function timer(seconds) {
     const now = Date.now();
     const then = now + seconds * 1000;
+    display_timer(seconds);
     countdown = setInterval(() => {
         const secondleft = Math.round((then - Date.now()) / 1000);
         
@@ -15,7 +16,13 @@ function timer(seconds) {
             clearInterval(countdown);
             return;
         }
-        console.log(secondleft);
+        display_timer(secondleft);
     }, 1000);
+}
+
+function display_timer(seconds) {
+    const min=Math.round(seconds / 60);
+    const sec=seconds % 60;
+    console.log(min,sec);
 }
 timer(10);
