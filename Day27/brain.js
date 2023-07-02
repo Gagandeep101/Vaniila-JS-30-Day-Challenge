@@ -5,6 +5,8 @@ const button = document.querySelectorAll('[data-time]');
 
 // In these function get seconds and update the counter on every seconds
 function timer(seconds) {
+    // when we click multiple button to change the timer its show few times before timer updation . So to clear previous countdown timer before using timer
+    clearInterval(countdown);
     const now = Date.now();
     const then = now + seconds * 1000;
 
