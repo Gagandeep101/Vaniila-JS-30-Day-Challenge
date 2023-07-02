@@ -40,4 +40,10 @@ function display_end_timer(seconds) {
 function show_time_correct(time) {
     return time < 10 ? "0" + time : time;
 }
-timer(10);
+
+function start_timer(e){
+    const seconds = this.dataset.time;
+    timer(seconds);
+}
+
+button.forEach(button=>button.addEventListener('click',start_timer));
