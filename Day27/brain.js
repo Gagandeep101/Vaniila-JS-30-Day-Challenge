@@ -49,3 +49,9 @@ function start_timer(e){
 }
 
 button.forEach(button=>button.addEventListener('click',start_timer));
+
+document.customForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    timer(this.minutes.value);
+    this.reset();
+});
