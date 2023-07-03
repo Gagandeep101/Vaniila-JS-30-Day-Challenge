@@ -39,6 +39,9 @@ function scrubProgress(e) {
     video.currentTime = scrubtime;
 }
 
+function maxscreen() {
+    video.requestFullscreen();
+}
 
 // Hook up the event listeners;
 video.addEventListener('click', togglePlay);
@@ -57,3 +60,4 @@ progress.addEventListener('click', scrubProgress);
 progress.addEventListener('mousemove', (e) => mousedown && scrubProgress(e));
 progress.addEventListener('mousedown', () => mousedown = true);
 progress.addEventListener('mouseup', () => mousedown = false);
+fullscreen.addEventListener('click', maxscreen);
