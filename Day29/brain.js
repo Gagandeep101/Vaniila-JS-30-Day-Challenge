@@ -46,5 +46,49 @@ function takePhoto(){
   link.innerHTML = `<img src="${data}" alt="Handsome Man"/>`;
   strip.insertBefore(link, strip.firstChild);
  } 
+ function redeffects(pixel) {
+  for(let i = 0; i <pixel.data.length; i+=4) {
+    pixel.data[i+0]=pixel.data[i+1]+100;//red
+    pixel.data[i+1]=pixel.data[i+1]-50;//green
+    pixel.data[i+2]=pixel.data[i+2]*0.5;//blue
+  }
+  return pixel;
+}
+function rgbsplit(pixel) {
+  for(let i = 0; i <pixel.data.length; i+=4) {
+    pixel.data[i-250]=pixel.data[i+1]+100;//red
+    pixel.data[i+250]=pixel.data[i+1]-50;//green
+    pixel.data[i-250]=pixel.data[i+2]*0.5;//blue
+  }
+  return pixel;
+
+}
+function greenScreen(pixels) {
+  const levels = {};
+
+  document.querySelectorAll('.rgb input').forEach((input) => {
+    levels[input.name] = input.value;
+  });
+
+  for (i = 0; i < pixels.data.length; i = i + 4) {
+    red = pixels.data[i + 0];
+    green = pixels.data[i + 1];
+    blue = pixels.data[i + 2];
+    alpha = pixels.data[i + 3];
+
+    if (red >= levels.rmin
+      && green >= levels.gmin
+      && blue >= levels.bmin
+      && red <= levels.rmax
+      && green <= levels.gmax
+      && blue <= levels.bmax) {
+      // take it out!
+      pixels.data[i + 3] = 0;
+    }
+  }
+
+  return pixels;
+}
+
 getVideo();
 video.addEventListener('canplay',paintVideoToCanvas);
