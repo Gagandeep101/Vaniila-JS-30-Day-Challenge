@@ -38,3 +38,10 @@ function peephole() {
         }
     },time)
 }
+function startGame(){
+    scoreBoard.textContent = 0;
+    timeUp=false;
+    score=0;
+    peephole();
+    setTimeout(()=>timeUp=true,10000);
+}
