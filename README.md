@@ -1,4 +1,3 @@
-![chrome-capture-2023-6-5 (2)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/aa40eafc-72d3-412f-b838-d704835a87af)# Vaniila-JS-30-Day-Challenge
 ## Day1 : Minecraft Sound Kit
 On Day 1 simple creating Mincraft sound playing on pressing key mention on display using html,css and javascript
 
@@ -49,3 +48,55 @@ On Day 9 we using different dev tools html , css and javascript
 On Day 10 we select multiple checkbox on shift click using html , css and javascript
 
 ![chrome-capture-2023-6-5 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/db29df9b-6ca6-44a1-a715-a882cd5c439b)
+
+## Day11 : Creating Key Sequence Detection in JS
+On Day 11 we create key sequence detection using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/ee1e5999-632f-42a7-8566-f6096db6405a)
+
+## Day12 : Create webpage slide roll image in JS
+On Day 12 we create webpage slide roll image using html , css and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/fad3fd1e-bac7-4d2f-baf8-c33be2d07d6c)
+
+## Day13 : Using JavaScript References VS Copying in JS
+On Day 13 we using javaScript references vs copying using html and javascript
+
+![chrome-capture-2023-6-6 (2)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/9c6d3430-35d2-4b94-ba2f-b08851a4f47f)
+
+## Day14 : Create resturant menu list in JS
+On Day 14 we create resturant menu list using html , css and javascript
+
+![chrome-capture-2023-6-6 (3)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/436e3b79-0c4c-4844-b6a8-6f8549bcb081)
+
+## Day15 : Create Sorting Element without Article in JS
+On Day 15 we create sorting element without article using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/065819f4-ddff-4ede-a552-92cc1150af8b)
+
+## Day15 : Create Mouse Move Shadow in JS
+On Day 15 we create mouse move shadow using html , css and javascript
+
+![chrome-capture-2023-6-6 (4)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/d3df39c3-56f7-478a-9d13-7c828ff0268d)
+
+## Day17 : Show total time in hour , minutes and seconds in JS
+On Day 17 show total time in hour , minutes and seconds using html and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/7cec6a5d-99e7-4bfe-b538-08c0905aa595)
+
+## Day18 : Create speech to text translator in JS
+On Day 18 create speech to text translator using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/2105caff-f072-4fb8-98c6-62e164465652)
+
+## Day19 : Create Gelocation Traker and Direction in JS
+On Day 19 create gelocation traker and direction using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/19fba427-e308-4ad1-915c-9fec6c4b0370)
+
+***This project work on android or ios emulator in system***
+
+## Day20 : Create nav bar webpage in JS
+On Day 20 create nav bar webpage hover on its nav item and anchor icon using html , css and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/26055a73-4300-4bd9-95e5-5a868f6d3ace)
