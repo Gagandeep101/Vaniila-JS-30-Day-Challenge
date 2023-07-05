@@ -45,3 +45,12 @@ function startGame(){
     peephole();
     setTimeout(()=>timeUp=true,10000);
 }
+function bonk(e){
+    if (!e.isTrusted) {
+        return;
+    }
+    score++;
+    this.classList.remove('up');
+    scoreBoard.textContent=score;
+}
+moles.forEach(mole=>mole.addEventListener('click',bonk));
