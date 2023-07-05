@@ -12,4 +12,27 @@ function getVideo(){
     video.play();
   }).catch(err=>console.log("Please wait... || Check your WebCams settings",err.msg));
 }
+function paintVideoToCanvas(){
+  // fetch video width and height
+  const width = video.videoWidth;
+  const height = video.videoHeight;
+  // set canvas width and height
+  canvas.width = width;
+  canvas.height = height;
+  // setInterval for repeatly updating photo on canvas less than 1 sec
+  setInterval(()=>{
+    // display video on canvas 
+    ctx.drawImage(video,0,0,width,height);
+    let pixel= ctx.getImageData(0,0,width,height);
+    
+    // Add Efftect on video
+    
+    // pixel=redeffects(pixel);
+    // pixel=rgbsplit(pixel);
+    pixel=greenScreen(pixel);
+    ctx.putImageData(pixel,0,0);  
+  },16);
+}
+
 getVideo();
+video.addEventListener('canplay',paintVideoToCanvas);
