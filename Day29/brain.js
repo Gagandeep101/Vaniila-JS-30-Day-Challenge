@@ -26,13 +26,25 @@ function paintVideoToCanvas(){
     let pixel= ctx.getImageData(0,0,width,height);
     
     // Add Efftect on video
-    
+
     // pixel=redeffects(pixel);
     // pixel=rgbsplit(pixel);
     pixel=greenScreen(pixel);
     ctx.putImageData(pixel,0,0);  
   },16);
 }
-
+function takePhoto(){
+  // played the sound
+  snap.currentTime = 0;
+  snap.play();
+ 
+  // take the data out of the canvas
+  const data = canvas.toDataURL('image/jpeg');
+  const link = document.createElement('a');
+  link.href = data;
+  link.setAttribute('download', 'handsome');
+  link.innerHTML = `<img src="${data}" alt="Handsome Man"/>`;
+  strip.insertBefore(link, strip.firstChild);
+ } 
 getVideo();
 video.addEventListener('canplay',paintVideoToCanvas);
