@@ -100,3 +100,53 @@ On Day 19 create gelocation traker and direction using html , css and javascript
 On Day 20 create nav bar webpage hover on its nav item and anchor icon using html , css and javascript
 
 ![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/26055a73-4300-4bd9-95e5-5a868f6d3ace)
+
+## Day21 : Create a webpage for text to voice convertor in JS
+On Day 21 create webpage for text to voice convertor using html , css and javascript
+
+![chrome-capture-2023-6-6 (2)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/0189a27c-4684-4af7-acfa-6bcef4b5d4f8)
+
+## Day22 : Create a fix nav bar webpage in JS
+On Day 22 create a fix a nav bar webpage on scroll go to at certain height using html , css and javascript.
+
+![chrome-capture-2023-6-6 (3)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/9c864569-67bf-4ebd-af1c-67fe82d42d5b)
+
+## Day23 : Using Event Capture, Propagation, Bubbling and Once in JS
+On Day 23 using event capture, propagation, bubbling and once using html , css and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/6a34a80d-da17-4bbf-86a9-38fef22c13c9)
+
+## Day24 : Creating Stripe Follow Along Nav in JS
+On Day 24 create show detail on hover the nav bar element using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/bfa8fe2c-d8ad-419d-b493-912a135b1d5c)
+
+## Day25 : Creating Webpage Click and Drag With Mouse in JS
+On Day 25 create webpage click and drag with mouse using html , css and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/59e8751f-4d0e-4ef8-b6f8-4efe77260bd7)
+
+## Day26 : Creating Webpage Video Speed Controller in JS
+On Day 26 create video speed controller using html , css and javascript
+
+![chrome-capture-2023-6-6 (2)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/e7ee743f-433f-4839-b87e-e15717ab8e0c)
+
+## Day27 : Creating Stop Time Counter in JS
+On Day 27 create stop time counter using html , css and javascript
+
+![chrome-capture-2023-6-6 (3)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/d3082c96-d740-46b3-bb9f-80e3e4a16b68)
+
+## Day28 : Creating Video Player in JS
+On Day 28 create video player using html , css and javascript
+
+![chrome-capture-2023-6-6 (4)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/eedd2b89-801d-48b1-a728-c374e3dae0a3)
+
+## Day29 : Creating webpage for fetching webcam access and data in JS
+On Day 29 create webpage for fetching webcam access and data using html , css and javascript
+
+![chrome-capture-2023-6-6](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/bd1ae5fd-d078-4b1a-98c7-d02266623120)
+
+## Day30 : Create a whack a mole game in JS
+On Day 30 create a whack a mole game using html , css and javascript
+
+![chrome-capture-2023-6-6 (1)](https://github.com/Gagandeep101/Vaniila-JS-30-Day-Challenge/assets/112372818/cc276e65-28e3-4115-a48b-f57845035cbb)
